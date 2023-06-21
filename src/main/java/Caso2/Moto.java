@@ -3,6 +3,11 @@ public class Moto {
 	private String marca;
 	private String modelo;
 	private Persona persona;
+	public Moto(String marca, String modelo) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.persona = null;
+	}
 
 	public String getMarca() {
 		return this.marca;

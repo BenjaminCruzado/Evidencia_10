@@ -5,6 +5,10 @@ public class Departamentos {
 	private String nombre;
 	private Empresa empresa;
 	private ArrayList<GrupoDeProyecto> grupos_de_proyecto = new ArrayList<GrupoDeProyecto>();
+	public Departamentos(String nombre) {
+		this.nombre = nombre;
+		this.grupos_de_proyecto = new ArrayList<GrupoDeProyecto>();
+	}
 
 	public String getNombre() {
 		return this.nombre;
