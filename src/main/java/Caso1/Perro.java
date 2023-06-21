@@ -4,11 +4,11 @@ public class Perro extends Mascota {
 	private String color;
 
 	public void ladrar() {
-		throw new UnsupportedOperationException();
+		System.out.println("¡Guau guau!");
 	}
 
 	public void comer() {
-		throw new UnsupportedOperationException();
+		System.out.println("El perro está comiendo.");
 	}
 
 	public String getNombre() {
