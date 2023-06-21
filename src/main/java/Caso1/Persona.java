@@ -5,6 +5,11 @@ public class Persona {
 	private int edad;
 	private String nombre;
 	private ArrayList<Mascota> mascotas = new ArrayList<Mascota>();
+	public Persona(int edad, String nombre) {
+		this.edad = edad;
+		this.nombre = nombre;
+		this.mascotas = new ArrayList<Mascota>();
+	}
 
 	public int getEdad() {
 		return this.edad;

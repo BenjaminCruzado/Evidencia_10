@@ -3,6 +3,11 @@ public class Mascota {
 	private String nombre;
 	private String color;
 	private Persona persona;
+	public Mascota(String nombre, String color) {
+		this.nombre = nombre;
+		this.color = color;
+		this.persona = null;
+	}
 
 	public String getNombre() {
 		return this.nombre;

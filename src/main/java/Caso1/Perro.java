@@ -2,6 +2,10 @@ package Caso1;
 public class Perro extends Mascota {
 	private String nombre;
 	private String color;
+	public Perro(String nombre, String color) {
+		this.nombre = nombre;
+		this.color = color;
+	}
 
 	public void ladrar() {
 		System.out.println("¡Guau guau!");
